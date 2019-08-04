@@ -1,4 +1,3 @@
-# SeleniumPython
-The Selenium Python text file shows basic code to learn Python Selenium Automation. The file SeleniumPythonEasyDemo shows code to automate the demo Selenium website: https://www.seleniumeasy.com/test/
-Selenium Python Excel files show how to read and write to xlsx using python libraries to automate the demo Selenium website: https://www.seleniumeasy.com/test/
-Selenium Python Excel Pytest text and zip files show basic assert statement using Pytest
+The Selenium Python text file shows code to automate SeleniumPythonEasyDemo website with 26 screens: https://www.seleniumeasy.com/test/
+Selenium Python Excel text and zip files, for the above website, show Python automation using Excel read and write to xlsx. 
+Selenium Python Pytest text and zip files, for the above website, show basic assert statement using Pytest.
