@@ -1,1 +1,1 @@
-Selenium Python automation for: http://demo.seleniumeasy.com/
+Selenium Python Automation Demo for website: http://demo.seleniumeasy.com/
