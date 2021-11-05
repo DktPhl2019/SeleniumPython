@@ -8,7 +8,7 @@ import time
 
 browser = webdriver.Chrome("C:/browserdrivers/chromedriver.exe");
 
-browser.get('https://www.seleniumeasy.com/test/');
+browser.get('http://demo.seleniumeasy.com/');
 browser.maximize_window();
 
 mysecs = 3;
@@ -1020,7 +1020,7 @@ else:
 
 time.sleep(mysecs);
 
-browser.find_element_by_xpath("(//button[@type='button'][contains(.,'×')])[1]").click();
+browser.find_element_by_xpath("(//button[@type='button'][contains(.,'Ã—')])[1]").click();
 
 browser.find_element_by_xpath("//button[@id='normal-btn-success']").click();
 alert3 = browser.find_element_by_xpath("//div[contains(@class,'alert alert-warning alert-autocloseable-warning')]");
@@ -1052,7 +1052,7 @@ else:
 
 time.sleep(mysecs);
 
-browser.find_element_by_xpath("(//button[@type='button'][contains(.,'×')])[2]").click();
+browser.find_element_by_xpath("(//button[@type='button'][contains(.,'Ã—')])[2]").click();
 
 time.sleep(mysecs);
 
@@ -1085,7 +1085,7 @@ else:
 	print("The output shown: " + a26);
 
 time.sleep(mysecs);
-browser.find_element_by_xpath("(//button[@type='button'][contains(.,'×')])[3]").click();
+browser.find_element_by_xpath("(//button[@type='button'][contains(.,'Ã—')])[3]").click();
 
 browser.find_element_by_xpath("//button[contains(.,'Autocloseable info message')]").click();
 alert7 = browser.find_element_by_xpath("//div[contains(@class,'alert alert-info alert-autocloseable-info')]");
@@ -1117,9 +1117,9 @@ else:
 
 time.sleep(mysecs);
 
-browser.find_element_by_xpath("(//button[@type='button'][contains(.,'×')])[4]").click();
+browser.find_element_by_xpath("(//button[@type='button'][contains(.,'Ã—')])[4]").click();
 
-browser.find_element_by_xpath("(//button[@type='button'][contains(.,'×')])[1]").click();
+browser.find_element_by_xpath("(//button[@type='button'][contains(.,'Ã—')])[1]").click();
 
 #Open Bootstrap Modals screen
 
